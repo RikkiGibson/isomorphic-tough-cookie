@@ -1,0 +1,29 @@
+{
+  "name": "isomorphic-tough-cookie",
+  "version": "0.0.1",
+  "description": "Wrapper around tough-cookie which prevents bundling in browser",
+  "main": "index.js",
+  "browser": "browser.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikkiGibson/isomorphic-tough-cookie.git"
+  },
+  "keywords": [
+    "isomorphic",
+    "cookie"
+  ],
+  "author": "Rikki Gibson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RikkiGibson/isomorphic-tough-cookie/issues"
+  },
+  "homepage": "https://github.com/RikkiGibson/isomorphic-tough-cookie#readme",
+  "dependencies": {
+    "@types/tough-cookie": "^2.3.3",
+    "tough-cookie": "^2.3.4"
+  }
+}
